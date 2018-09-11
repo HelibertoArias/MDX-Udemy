@@ -6,10 +6,37 @@
     <Name>MyFirstCube.database</Name>
     <FullPath>MyFirstCube.database</FullPath>
   </Database>
+  <DataSources>
+    <ProjectItem>
+      <Name>My Data Source.ds</Name>
+      <FullPath>My Data Source.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>Data Source View.dsv</Name>
+      <FullPath>Data Source View.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
-      <Options />
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>My Data Source</Id>
+            <Name>My Data Source</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=.;Integrated Security=SSPI;Initial Catalog=AdventureWorks2012</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>My Data Source</Id>
+            <Name>My Data Source</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
     </Configuration>
   </Configurations>
 </Project>
