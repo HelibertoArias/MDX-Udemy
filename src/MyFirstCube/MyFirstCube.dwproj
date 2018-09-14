@@ -6,6 +6,28 @@
     <Name>MyFirstCube.database</Name>
     <FullPath>MyFirstCube.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>My First Cube.cube</Name>
+      <FullPath>My First Cube.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>My First Cube.partitions</Name>
+          <FullPath>My First Cube.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Sales Order Header.dim</Name>
+      <FullPath>Sales Order Header.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Ship Method.dim</Name>
+      <FullPath>Ship Method.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
   <DataSources>
     <ProjectItem>
       <Name>My Data Source.ds</Name>
@@ -26,14 +48,14 @@
           <ConfigurationSetting>
             <Id>My Data Source</Id>
             <Name>My Data Source</Name>
-            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=.;Integrated Security=SSPI;Initial Catalog=AdventureWorks2012</Value>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=localhost;Password=;User ID=;Initial Catalog=AdventureWorks2012</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>
           <ConfigurationSetting>
             <Id>My Data Source</Id>
             <Name>My Data Source</Name>
-            <Value xsi:type="xsd:int">0</Value>
+            <Value xsi:type="xsd:int">1</Value>
           </ConfigurationSetting>
         </ConnectionSecurityMappings>
       </Options>
