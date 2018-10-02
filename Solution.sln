@@ -7,6 +7,8 @@ Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "MyFirstCube", "src\MyFirstC
 EndProject
 Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "MyFirstReportingServices", "src\MyFirstReportingServices\MyFirstReportingServices.rptproj", "{7747F8A5-E52E-4738-98EC-BDBE84F35F2B}"
 EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Section_04_Lecture_30", "src\Section_04_Lecture_30\Section_04_Lecture_30.dwproj", "{68B949B2-668C-43EA-A846-9A9D1DD5CDE2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Default = Debug|Default
@@ -37,6 +39,18 @@ Global
 		{7747F8A5-E52E-4738-98EC-BDBE84F35F2B}.Release|Default.ActiveCfg = Release
 		{7747F8A5-E52E-4738-98EC-BDBE84F35F2B}.Release|Default.Build.0 = Release
 		{7747F8A5-E52E-4738-98EC-BDBE84F35F2B}.Release|Default.Deploy.0 = Release
+		{68B949B2-668C-43EA-A846-9A9D1DD5CDE2}.Debug|Default.ActiveCfg = Development
+		{68B949B2-668C-43EA-A846-9A9D1DD5CDE2}.Debug|Default.Build.0 = Development
+		{68B949B2-668C-43EA-A846-9A9D1DD5CDE2}.Debug|Default.Deploy.0 = Development
+		{68B949B2-668C-43EA-A846-9A9D1DD5CDE2}.DebugLocal|Default.ActiveCfg = Development
+		{68B949B2-668C-43EA-A846-9A9D1DD5CDE2}.DebugLocal|Default.Build.0 = Development
+		{68B949B2-668C-43EA-A846-9A9D1DD5CDE2}.DebugLocal|Default.Deploy.0 = Development
+		{68B949B2-668C-43EA-A846-9A9D1DD5CDE2}.Development|Default.ActiveCfg = Development
+		{68B949B2-668C-43EA-A846-9A9D1DD5CDE2}.Development|Default.Build.0 = Development
+		{68B949B2-668C-43EA-A846-9A9D1DD5CDE2}.Development|Default.Deploy.0 = Development
+		{68B949B2-668C-43EA-A846-9A9D1DD5CDE2}.Release|Default.ActiveCfg = Development
+		{68B949B2-668C-43EA-A846-9A9D1DD5CDE2}.Release|Default.Build.0 = Development
+		{68B949B2-668C-43EA-A846-9A9D1DD5CDE2}.Release|Default.Deploy.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
